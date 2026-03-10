@@ -35,6 +35,30 @@ The network topology used in this lab consists of three routers and two internal
 
 ---
 
+## Host Configuration
+
+Before configuring the routers and VPN tunnel, the end devices were configured with appropriate IP addresses so they could communicate with their respective local routers.
+
+### PC0 Configuration
+
+PC0 was configured with the following network settings:
+
+- IP Address: 192.168.1.2
+- Default Gateway: 192.168.1.1
+
+![PC0 Configuration](pc0-config.png)
+
+### PC1 Configuration
+
+PC1 was configured with the following network settings:
+
+- IP Address: 192.168.2.2
+- Default Gateway: 192.168.2.1
+
+![PC1 Configuration](pc1-config.png)
+
+---
+
 ## Step 1 — Configure Router Interfaces
 
 Each router interface was configured with IP addresses to enable connectivity between the routers.
