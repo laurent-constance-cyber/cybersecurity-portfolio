@@ -31,7 +31,7 @@ Router R2 acted as the intermediate router between the two networks.
 
 The network topology used in this lab consists of three routers and two internal networks connected through an intermediate router. The VPN tunnel is created between Router R1 and Router R3 to securely connect the two networks.
 
-![VPN Network Topology](topology.png)
+![VPN Network Topology](vpn-topology.png)
 
 ---
 
