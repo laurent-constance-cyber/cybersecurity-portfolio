@@ -257,9 +257,6 @@ Router R3 was configured with a corresponding tunnel interface that points back 
 
 ## Step 5 — Tunnel Verification
 
-Connectivity tests were performed again after the VPN tunnel configuration.
-## Step 5 — Tunnel Verification
-
 After configuring the VPN tunnel, connectivity tests were performed to verify that the tunnel was successfully established.
 
 ### Initial Test (Before Tunnel Fully Established)
