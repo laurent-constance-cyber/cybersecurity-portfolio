@@ -1,5 +1,9 @@
 # VPN Site-to-Site Tunnel Configuration
 
+> **Project Type:** Network Security Lab  
+> **Environment:** Cisco Packet Tracer  
+> **Difficulty:** Intermediate Networking
+
 ## Project Overview
 
 This project demonstrates the configuration of a secure Site-to-Site VPN tunnel between two routers to allow secure communication between two different internal networks.
@@ -7,6 +11,33 @@ This project demonstrates the configuration of a secure Site-to-Site VPN tunnel 
 The lab involved configuring routing, testing connectivity, and establishing an encrypted tunnel between routers.
 
 ---
+
+## Tools Used
+
+- Cisco Packet Tracer
+- Router CLI (Cisco IOS)
+- ICMP Ping for connectivity testing
+- Static routing configuration
+- Tunnel interface configuration
+
+===
+
+## Table of Contents
+
+1. [Lab Environment](#lab-environment)
+2. [Network Topology](#network-topology)
+3. [Host Configuration](#host-configuration)
+4. [Router Configuration](#router-configuration)
+5. [Default Routing](#step-2--configure-default-routing)
+6. [Connectivity Testing](#step-3--connectivity-testing)
+7. [VPN Tunnel Configuration](#step-4--vpn-tunnel-configuration)
+8. [Tunnel Verification](#step-5--tunnel-verification)
+9. [Routing Through the Tunnel](#step-6--routing-through-the-tunnel)
+10. [VPN Tunnel Testing](#step-7--vpn-tunnel-testing)
+11. [Result](#result)
+12. [Skills Demonstrated](#skills-demonstrated)
+
+===
 
 ## Lab Environment
 
@@ -343,10 +374,25 @@ The VPN tunnel was successfully established between Router R1 and Router R3, all
 
 ---
 
+## Key Learning Outcomes
+
+This lab demonstrated how VPN tunnels can securely connect remote networks across an intermediate routing infrastructure.
+
+The project also reinforced the importance of:
+
+- proper routing configuration
+- verifying connectivity before implementing security mechanisms
+- validating tunnel functionality after deployment
+
+---
+
 ## Skills Demonstrated
 
-- Network routing
-- Router configuration
-- VPN implementation
-- Network troubleshooting
-- Secure network communication
+- Cisco router configuration using CLI
+- Static routing configuration
+- Site-to-Site VPN tunnel implementation
+- Network troubleshooting and connectivity testing
+- Packet flow verification using Packet Tracer simulation
+- Secure network communication between remote networks
+
+
