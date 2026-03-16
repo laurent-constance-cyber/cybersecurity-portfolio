@@ -190,8 +190,6 @@ ip route 192.168.1.0 255.255.255.0 172.16.1.0
 
 ---
 
----
-
 ## Step 3 — Connectivity Testing
 
 Connectivity between routers was tested using ping commands.
@@ -205,6 +203,35 @@ Tests performed included:
 These tests confirmed that the routing configuration was working.
 
 ---
+
+### Router3 Ping Test
+
+Router3 was used to test connectivity by sending ICMP ping requests to another network address.  
+The successful replies confirmed that routing between the routers was working correctly.
+
+![Router3 Ping Test](router3-ping-test.png)
+
+---
+
+### Router2 to Router3 Communication
+
+Connectivity between Router2 and Router3 was verified using ICMP ping commands.
+
+Successful responses confirmed that traffic could travel between the routers through the configured routing paths.
+
+![Router2 to Router3 Test](router2-router3-test-1.png)
+
+![Router2 to Router3 Test](router2-router3-test-2.png)
+
+---
+
+### Additional Connectivity Verification
+
+Additional packet tests were performed in the Packet Tracer simulation environment to confirm successful routing across the network.
+
+![Connectivity Test](connectivity-test-1.png)
+
+![Connectivity Test](connectivity-test-2.png)
 
 ## Step 4 — VPN Tunnel Configuration
 
