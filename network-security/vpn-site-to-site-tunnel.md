@@ -148,6 +148,8 @@ no shutdown
 
 ![Router R3 Configuration](router-r3-configuration.png)
 
+---
+
 ## Step 2 — Configure Default Routing
 
 Routing entries were added to allow traffic to reach remote networks.
