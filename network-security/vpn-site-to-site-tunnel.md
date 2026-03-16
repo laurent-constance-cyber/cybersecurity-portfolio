@@ -124,6 +124,32 @@ no shutdown
 
 ---
 
+### Router R3 Configuration
+
+Router R3 connects the second internal network (192.168.2.0) to the intermediate router R2.
+
+Configuration tasks included:
+
+- Assigning IP addresses to interfaces
+- Enabling router interfaces
+- Preparing the router for VPN tunnel configuration
+
+Example configuration commands:
+
+enable  
+configure terminal  
+interface fastethernet0/1  
+ip address 2.0.0.2 255.0.0.0  
+no shutdown  
+
+interface fastethernet0/0  
+ip address 192.168.2.1 255.255.255.0  
+no shutdown  
+
+![Router R3 Configuration](router-r3-configuration.png)
+
+---
+
 ## Step 2 — Configure Default Routing
 
 Routing entries were added to allow traffic to reach remote networks.
