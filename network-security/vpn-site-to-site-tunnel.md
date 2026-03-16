@@ -20,7 +20,7 @@ The lab involved configuring routing, testing connectivity, and establishing an 
 - Static routing configuration
 - Tunnel interface configuration
 
-===
+---
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@ The lab involved configuring routing, testing connectivity, and establishing an 
 11. [Result](#result)
 12. [Skills Demonstrated](#skills-demonstrated)
 
-===
+---
 
 ## Lab Environment
 
