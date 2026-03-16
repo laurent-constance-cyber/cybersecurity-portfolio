@@ -71,6 +71,59 @@ Routers configured:
 
 ---
 
+## Router Configuration
+
+After configuring the end hosts, the routers were configured with IP addressing and interfaces to enable communication between networks.
+
+### Router R1 Configuration
+
+Router R1 connects the internal network 192.168.1.0 to the intermediate router.
+
+Key configuration tasks included:
+
+- Accessing router configuration mode
+- Configuring the FastEthernet interface
+- Assigning IP addresses
+- Activating the interface
+
+Example configuration steps:
+
+enable  
+configure terminal  
+interface fastethernet0/1  
+ip address 1.0.0.1 255.0.0.0  
+no shutdown  
+
+![Router R1 Configuration](router-r1-configuration.png)
+
+---
+
+### Router R2 Configuration
+
+Router R2 acts as the intermediate router between Router R1 and Router R3. It is responsible for forwarding traffic between the two routers and ensuring proper network connectivity.
+
+Configuration tasks included:
+
+- Assigning IP addresses to router interfaces
+- Enabling interfaces
+- Allowing routing between connected networks
+
+Example configuration steps:
+
+enable  
+configure terminal  
+interface fastethernet0/0  
+ip address 1.0.0.2 255.0.0.0  
+no shutdown  
+
+interface fastethernet0/1  
+ip address 2.0.0.1 255.0.0.0  
+no shutdown  
+
+![Router R2 Configuration](router-r2-configuration.png)
+
+---
+
 ## Step 2 — Configure Default Routing
 
 Routing entries were added to allow traffic to reach remote networks.
