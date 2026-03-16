@@ -181,23 +181,13 @@ no shutdown
 
 ---
 
-## Step 2 — Configure Default Routing
+## Step 2 — Configure Static Routing
 
-Routing entries were added to allow traffic to reach remote networks.
+After configuring the router interfaces, static routes were added to allow communication between the two internal networks.
 
-Example configuration:
+Static routes were configured on Router R1 and Router R3 so that traffic destined for the remote network could be forwarded through the intermediate router.
 
-ip route 192.168.2.0 255.255.255.0 172.16.1.2
-
-This route directs traffic destined for the 192.168.2.0 network through the gateway.
-
-## Routing Configuration
-
-After configuring the routers, static routing was configured to allow communication between the two internal networks.
-
-Static routes were added on Router R1 and Router R3 so that traffic destined for the remote network could be forwarded correctly.
-
-### Default Routing on Router R1
+### Static Route on Router R1
 
 Router R1 was configured with a route directing traffic for the 192.168.2.0 network toward the intermediate router.
 
@@ -205,11 +195,11 @@ Example command used:
 
 ip route 192.168.2.0 255.255.255.0 172.16.1.2
 
-![Default Route on Router R1](default-route-router1.png)
+![Static Route on Router R1](default-route-router1.png)
 
 ---
 
-### Default Routing on Router R3
+### Static Route on Router R3
 
 Router R3 was configured with a route directing traffic for the 192.168.1.0 network back toward Router R1 through the intermediate router.
 
@@ -217,7 +207,7 @@ Example command used:
 
 ip route 192.168.1.0 255.255.255.0 172.16.1.0
 
-![Default Route on Router R3](default-route-router3.png)
+![Static Route on Router R3](default-route-router3.png)
 
 ---
 
