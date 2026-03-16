@@ -235,32 +235,108 @@ Additional packet tests were performed in the Packet Tracer simulation environme
 
 ## Step 4 — VPN Tunnel Configuration
 
-A VPN tunnel was configured between:
+After verifying that basic connectivity and routing were functioning correctly, a VPN tunnel was created between Router R1 and Router R3 to securely connect the two remote networks.
 
-- Router R1
-- Router R3
+The tunnel was configured on both routers using tunnel interfaces and appropriate IP addressing.
 
-Both routers were configured with the required parameters to establish encrypted communication.
+### VPN Tunnel Configuration on Router R1
+
+Router R1 was configured with a tunnel interface that points to Router R3 as the tunnel destination.
+
+![VPN Tunnel Configuration on Router R1](vpn-tunnel-on-router-R1.png)
+
+---
+
+### VPN Tunnel Configuration on Router R3
+
+Router R3 was configured with a corresponding tunnel interface that points back to Router R1.
+
+![VPN Tunnel Configuration on Router R3](vpn-tunnel-on-router-R3.png)
 
 ---
 
 ## Step 5 — Tunnel Verification
 
 Connectivity tests were performed again after the VPN tunnel configuration.
+## Step 5 — Tunnel Verification
 
-Ping tests confirmed successful communication between Router R1 and Router R3.
+After configuring the VPN tunnel, connectivity tests were performed to verify that the tunnel was successfully established.
+
+### Initial Test (Before Tunnel Fully Established)
+
+An initial connectivity test from Router R1 to Router R3 resulted in packet loss, indicating that the tunnel was not yet fully operational.
+
+![Initial Ping Failure](Router-r1-and-ping-with-router-r3-error.png)
+
+---
+
+### Successful Tunnel Communication
+
+After completing the configuration, the routers were able to communicate successfully through the VPN tunnel.
+
+![Successful Ping Test](Router-r1-and-ping-with-router-r3-sucessful.png)
+
+---
+
+### Router R3 Connectivity Test
+
+Router R3 successfully communicated with Router R1 across the VPN tunnel, confirming that the encrypted connection was functioning correctly.
+
+![Router R3 Ping Test](Router-r3-and-test-network-by-pinging-router-r1-interface-succesful1.png)
+
+![Router R3 Ping Test](Router-r3-and-test-network-by-pinging-router-r1-interface-succesful2.png)
 
 ---
 
 ## Step 6 — Routing Through the Tunnel
 
-Additional routes were configured to ensure traffic flows through the VPN tunnel.
+Additional static routes were configured on both routers to ensure that traffic between the two internal networks travels through the VPN tunnel.
 
-Example configuration:
+### Static Route on Router R1
+
+Example configuration command:
 
 R1(config)# ip route 192.168.2.0 255.255.255.0 172.16.1.2
 
+![Routing Configuration on Router R1](R1config.png)
+
+---
+
+### Static Route on Router R3
+
+Example configuration command:
+
 R3(config)# ip route 192.168.1.0 255.255.255.0 172.16.1.0
+
+![Routing Configuration on Router R3](R3config.png)
+
+---
+
+## Step 7 — VPN Tunnel Testing
+
+Further tests were performed to confirm that the VPN tunnel was functioning correctly.
+
+### Router R1 Tunnel Verification
+
+Router R1 was used to verify that the VPN tunnel interface was successfully created and operational.
+
+![Router R1 Tunnel Test](RouterR1-and-test-VPN-Tunnel-Creation.png)
+
+---
+
+### Router R3 Tunnel Verification
+
+Router R3 also confirmed successful tunnel creation and communication.
+
+![Router R3 Tunnel Test](RouterR3-and-test-VPN-Tunnel-Creation.png)
+
+---
+
+### Packet Flow Through Tunnel
+
+Simulation mode in Packet Tracer was used to trace the packet flow through the VPN tunnel and verify that traffic was being routed correctly.
+
+![Tunnel Packet Trace](trace-vpn-tunnel.png)
 
 ---
 
