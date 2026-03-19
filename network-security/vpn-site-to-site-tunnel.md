@@ -316,7 +316,7 @@ Example configuration command:
 
 R1(config)# ip route 192.168.2.0 255.255.255.0 172.16.1.2
 
-![Routing Configuration on Router R1](R1config.png)
+![Routing Configuration on Router R1](images/R1config.png)
 
 ---
 
