@@ -2,24 +2,40 @@
 
 This section contains hands-on cybersecurity labs completed on TryHackMe as part of my practical learning.
 
+---
+
 ## Overview
 
-Through these labs, I gained experience in:
+Through these labs, I gained practical experience in:
 
 - Network fundamentals  
-- Basic system interaction  
-- Security concepts and practical exercises  
-- Using command-line tools in a lab environment  
+- Linux system interaction  
+- Basic cybersecurity concepts  
+- Working with virtual machines in a lab environment  
 
-## Practical Experience
+---
 
-The labs involved:
+## Practical Activities
+
+During these labs, I performed tasks such as:
 
 - interacting with virtual machines  
-- running commands on Linux systems  
-- understanding how systems and networks behave  
-- completing guided security challenges  
+- executing commands in Linux environments  
+- navigating file systems  
+- understanding how networks and systems operate  
+- completing guided cybersecurity challenges  
 
-## Key Learning
+---
 
-These exercises helped build foundational cybersecurity skills and improved my ability to work in practical lab environments.
+## Skills Developed
+
+- Basic command-line usage  
+- Understanding of network communication  
+- Problem-solving in lab environments  
+- Exposure to cybersecurity tools and workflows  
+
+---
+
+## Learning Outcome
+
+These labs helped reinforce my understanding of cybersecurity concepts through hands-on practice and prepared me for more advanced topics such as vulnerability exploitation and network security.
