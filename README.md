@@ -6,7 +6,7 @@ Practical cybersecurity lab projects demonstrating network security, vulnerabili
 
 ## About Me
 
-I am a cybersecurity graduate with a background in computer networking. I have hands-on experience configuring networks, implementing security solutions, and performing vulnerability testing in lab environments.
+I am a Cybersecurity and Digital Forensics graduate with a strong foundation in Network Security (HND). I have hands-on experience configuring network infrastructures, implementing secure VPN communication, and performing vulnerability exploitation and analysis in controlled lab environments, supported by practical projects and security labs.
 
 ---
 
