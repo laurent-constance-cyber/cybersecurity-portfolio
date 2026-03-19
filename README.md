@@ -1,71 +1,45 @@
 # Cybersecurity Portfolio
 
-Practical cybersecurity lab projects demonstrating network security, vulnerability exploitation, and digital forensics skills.
+Cybersecurity graduate with a background in Computer Security & Forensics (BSc) and Network Security (HND).
 
----
-
-## About Me
-
-I am a Cybersecurity and Digital Forensics graduate with a strong foundation in Network Security (HND). I have hands-on experience configuring network infrastructures, implementing secure VPN communication, and performing vulnerability exploitation and analysis in controlled lab environments, supported by practical projects and security labs.
-
----
-
-## Skills
-
-- Network Security & VPN Configuration
-- Routing & Switching (Cisco)
-- Penetration Testing Fundamentals
-- Vulnerability Analysis
-- Packet Analysis & Troubleshooting
+This portfolio showcases hands-on cybersecurity projects demonstrating practical skills in network security, vulnerability exploitation, and system interaction in lab environments.
 
 ---
 
 ## Projects
 
 ### 🔐 Network Security
-
-#### Site-to-Site VPN Tunnel Configuration
-Configured a secure VPN tunnel between two routers to enable encrypted communication between remote networks.
-
-**Skills:** VPN, Routing, Cisco CLI, Troubleshooting  
-📁 [View Project](./network-security/vpn-site-to-site-tunnel.md)
+- VPN Site-to-Site Tunnel Configuration  
+  📁 [View Project](./network-security/vpn-site-to-site-tunnel.md)
 
 ---
 
-### 🛠️ Vulnerability Exploitation
-
-#### EternalBlue Vulnerability Exploitation
-Demonstrated exploitation of the MS17-010 vulnerability in a controlled lab environment.
-
-**Skills:** Vulnerability Exploitation, SMB, Post-Exploitation  
-📁 (Pending)
+### 💥 Vulnerability Exploitation
+- EternalBlue (MS17-010) Exploitation  
+  📁 [View Project](./vulnerability-exploitation/eternalblue-exploitation.md)
 
 ---
 
 ### 🧪 TryHackMe Labs
-
-Hands-on labs covering:
-
-- Network Fundamentals
-- Linux Fundamentals
-- Web Exploitation
-- Privilege Escalation
-
-📁 (Pending)
+Hands-on labs covering networking, Linux, and cybersecurity fundamentals  
+📁 [View Labs](./tryhackme-labs/README.md)
 
 ---
 
-## Tools & Technologies
+## Skills Demonstrated
 
-- Cisco Packet Tracer
-- Nmap
-- Wireshark
-- Metasploit
-- Kali Linux
+- Network configuration and routing  
+- VPN implementation  
+- Vulnerability exploitation (Metasploit)  
+- System interaction after compromise  
+- Network troubleshooting  
 
 ---
 
-## Contact
+## Tools Used
 
-- LinkedIn: [LinkedIn Page](Pending)
-- GitHub: [GitHub Page](https://github.com/laurent-constance-cyber)
+- Cisco Packet Tracer  
+- Kali Linux  
+- Metasploit Framework  
+- Nmap  
+- Wireshark  
