@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio
 
-Cybersecurity graduate with a background in Computer Security & Forensics (BSc) and Network Security (HND).
+Cybersecurity graduate with a background in Cyber Security & Forensic Computing (BSc) and Network Security (HND).
 
 This portfolio showcases hands-on cybersecurity projects demonstrating practical skills in network security, vulnerability exploitation, and system interaction in lab environments.
 
