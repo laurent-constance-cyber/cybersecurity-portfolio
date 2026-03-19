@@ -32,7 +32,7 @@ Configured a secure VPN tunnel between two routers to enable encrypted communica
 
 ---
 
-### 🛠️ Vulnerability Exploitation Labs
+### 🛠️ Vulnerability Exploitation
 
 #### EternalBlue Vulnerability Exploitation
 Demonstrated exploitation of the MS17-010 vulnerability in a controlled lab environment.
