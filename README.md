@@ -68,4 +68,4 @@ Hands-on labs covering:
 ## Contact
 
 - LinkedIn: [LinkedIn Page](Pending)
-- GitHub: [GitHub Repo](Pending)
+- GitHub: [GitHub Page](https://github.com/laurent-constance-cyber)
