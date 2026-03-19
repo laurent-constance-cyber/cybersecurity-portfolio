@@ -38,7 +38,7 @@ Configured a secure VPN tunnel between two routers to enable encrypted communica
 Demonstrated exploitation of the MS17-010 vulnerability in a controlled lab environment.
 
 **Skills:** Vulnerability Exploitation, SMB, Post-Exploitation  
-📁 [View Project](Pending)
+📁 (Pending)
 
 ---
 
@@ -51,7 +51,7 @@ Hands-on labs covering:
 - Web Exploitation
 - Privilege Escalation
 
-📁 [View Project](Pending)
+📁 (Pending)
 
 ---
 
